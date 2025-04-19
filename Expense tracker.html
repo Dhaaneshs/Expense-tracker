@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+   <link rel="stylesheet" href="ex.css">
+    
+    
+</head>
+<body>
+    <div class="bod"><h1>MY EXPENSE TRACKER</h1>
+    <hr>
+    <div class="bod" id="ff">
+        <h2>Balance: ₹<label id="bal">0</label></h2>
+        <h3>Income: ₹<label id="inc">0</label></h3>
+        <h3>Expense: ₹<label id="exp">0</label></h3>
+    </div>
+    </div>
+    <form>
+        <fieldset>
+            <legend>Transaction</legend>
+          <div id="inp">  <label >Amount:</label>
+            <input type="number" id="amt" placeholder="₹ Enter the amount " >
+            <label >Description:</label>
+            <input type="text" id="des" placeholder="Description" >      
+            <select name="" id="opt" >
+                <option value="income">Income</option>
+                <option value="expense">Expense</option>
+            </select>
+            <input type="submit" id="add" value="Add">
+        </div>
+        </fieldset>
+    </form>
+    <h3>Transactions:</h3>
+    <table id="table">
+        <thead>
+        <tr>
+        <th>Income/Expense</th>
+        <th>Amount</th>
+        <th>Description</th>
+        <th>Action</th>
+        </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+    
+    <script src="ex.js">
+    </script>
+
+</body>
+</html>

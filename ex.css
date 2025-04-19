@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(18, 18, 18);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
+    text-align: center;
+    color: gold;
+    margin-top: 20px;
+  }
+  
+  hr {
+    width: 80%;
+    border: 1px solid gray;
+  }
+  
+  .bod {
+    background-color: rgb(30, 30, 30);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 0 10px black;
+  }
+  
+  .bod h2, .bod h3 {
+    margin: 10px 0;
+    color: lightgreen;
+  }
+  
+  form {
+    background-color: rgb(44, 44, 44);
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 0 10px black;
+  }
+  
+  legend {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: skyblue;
+  }
+  
+  #inp {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  #ff{
+    background-color: darkslategrey;
+  }
+  input, select {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: dimgray;
+    color: white;
+  }
+  
+  input::placeholder {
+    color: lightgray;
+  }
+  .del {
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .del:hover {
+    background-color: darkred;
+  }
+  
+  #add {
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    
+  }
+  
+  #add:hover {
+    background-color: darkorange;
+  }
+  
+  table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 90%;
+    max-width: 600px;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    border: 1px solid rgb(51, 51, 51);
+  }
+  
+  th, td {
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: slategray;
+    color: gold;
+  }
+  
+  td {
+    background-color: rgb(38, 50, 56);
+  }
+  
